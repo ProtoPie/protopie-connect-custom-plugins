@@ -1,0 +1,15 @@
+{
+  "name": "protopie-connect-date-time-plugin",
+  "version": "1.0.0",
+  "description": "ProtoPie Connect plugin providing formatted date and time",
+  "main": "plugin.js",
+  "scripts": {
+    "start": "node plugin.js"
+  },
+  "author": "Jeff Clarke",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "moment": "^2.29.3",
+    "socket.io-client": "^4.5.1"
+  }
+}

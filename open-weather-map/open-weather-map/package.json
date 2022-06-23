@@ -1,0 +1,16 @@
+{
+  "name": "protopie-connect-open-weather-plugin",
+  "version": "1.0.0",
+  "description": "ProtoPie Connect plugin providign current weather conditions via Open Weather Map API",
+  "main": "plugin.js",
+  "scripts": {
+    "start": "node plugin.js"
+  },
+  "author": "Jeff Clarke",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "moment": "^2.29.3",
+    "socket.io-client": "^4.5.1"
+  }
+}
