@@ -1,0 +1,25 @@
+{
+  "name": "custom-plugin-gamepad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index",
+    "build": "pkg package.json --output ./dist/plugin"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "scripts": "index.js",
+    "assets": "public/**/*",
+    "targets": [
+      "node14-macos-x64",
+      "node14-windows-x64"
+    ],
+    "outputPath": "plugin"
+  },
+  "dependencies": {
+    "open": "^8.4.0"
+  },
+  "devDependencies": {
+    "pkg": "^5.7.0"
+  }
+}
