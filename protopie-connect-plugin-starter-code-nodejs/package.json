@@ -1,0 +1,14 @@
+{
+  "name": "protopie-connect-plugin-starter-code-nodejs",
+  "version": "1.0.0",
+  "description": "ProtoPie Connect plugin starter code for NodeJS",
+  "main": "plugin.js",
+  "scripts": {
+    "start": "node plugin.js"
+  },
+  "author": "Jeff Clarke",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "socket.io-client": "^4.5.1"
+  }
+}
