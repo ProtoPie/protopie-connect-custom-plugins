@@ -19,7 +19,7 @@ Run `npm install` to install the Socket.io library.
 
 Start ProtoPie Connect and type `npm start` to launch the plugin.  You should see the message `"PLUGIN_STARTED"` appear in Connect's console with the value `"App name"`.
 
-Press CTRL-C to stop the bridge app, and you'll see the message `"PLUGIN_STOPPED"` in Connect's console.
+Press CTRL-C to stop the plugin, and you'll see the message `"PLUGIN_STOPPED"` in Connect's console.
 
 ## Customization
 
