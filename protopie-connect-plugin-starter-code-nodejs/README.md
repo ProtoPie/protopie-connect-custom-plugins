@@ -1,4 +1,4 @@
-# ProtoPie Connect NodeJS Plugin Starter Code
+# ProtoPie Connect Plugin Starter Code for NodeJS
 
 Everything you need to get started writing your own plugin for ProtoPie Connect.
 
