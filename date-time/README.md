@@ -34,6 +34,7 @@ Use Send & Receive in your Pie as follows:
 To get the system time, send the message <code>GET_TIME</code>.  The plugin will respond
 with the message <code>TIME</code>.
 
+<pre>
 Send:
 	Channel:	ProtoPie Studio
 	Message: 	GET_TIME
@@ -44,11 +45,12 @@ Receive:
 	Message: 	TIME
 	Value: 		formatted time
 				(defaults to <code>"h:mm A"</code>, e.g. 5:56 PM)
-
+</pre>
 
 To get the system date, send the message <code>GET_DATE</code>.  The plugin will respond
 with the message <code>DATE</code>.
 
+<pre>
 Send:
 	Channel: 	ProtoPie Studio
 	Message: 	GET_DATE
@@ -59,7 +61,7 @@ Receive:
 	Message: 	DATE
 	Value: 		formatted date
 				(defaults to <code>"dddd MMMM D"</code>, e.g. Tuesday October 14)
-
+</pre>
 
 
 
