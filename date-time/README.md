@@ -31,8 +31,8 @@ Log output can be viewed by clicking "Open in Terminal"
 
 Use Send & Receive in your Pie as follows:
 
-To get the system time, send the message "GET_TIME".  The plugin will respond
-with the message "TIME".
+To get the system time, send the message <code>GET_TIME</code>.  The plugin will respond
+with the message <code>TIME</code>.
 
 Send:
 	Channel:	ProtoPie Studio
@@ -43,11 +43,11 @@ Receive:
 	Channel: 	ProtoPie Studio
 	Message: 	TIME
 	Value: 		formatted time
-				(defaults to "h:mm A", e.g. 5:56 PM)
+				(defaults to <code>"h:mm A"</code>, e.g. 5:56 PM)
 
 
-To get the system date, send the message "GET_DATE".  The plugin will respond
-with the message "DATE".
+To get the system date, send the message <code>GET_DATE</code>.  The plugin will respond
+with the message <code>DATE</code>.
 
 Send:
 	Channel: 	ProtoPie Studio
@@ -58,7 +58,7 @@ Receive:
 	Channel: 	ProtoPie Studio
 	Message: 	DATE
 	Value: 		formatted date
-				(defaults to "dddd MMMM D", e.g. Tuesday October 14)
+				(defaults to <code>"dddd MMMM D"</code>, e.g. Tuesday October 14)
 
 
 
@@ -69,7 +69,7 @@ It is possible to override the default formatting for each of
 the above messages by specifying the desired form as the value
 supplied with the message you send.
 
-For example, if you send the message GET_TIME with the value "HH:mm"
+For example, if you send the message GET_TIME with the value <code>"HH:mm"<code>
 the plugin will respond with the message TIME along with the time
 formatted as 24-hour time
 	e.g., 17:56
