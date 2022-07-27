@@ -44,7 +44,7 @@ Receive:
 	Channel: 	ProtoPie Studio
 	Message: 	TIME
 	Value: 		formatted time
-				(defaults to <code>"h:mm A"</code>, e.g. 5:56 PM)
+			(defaults to <code>"h:mm A"</code>, e.g. 5:56 PM)
 </pre>
 
 To get the system date, send the message <code>GET_DATE</code>.  The plugin will respond
@@ -60,7 +60,7 @@ Receive:
 	Channel: 	ProtoPie Studio
 	Message: 	DATE
 	Value: 		formatted date
-				(defaults to <code>"dddd MMMM D"</code>, e.g. Tuesday October 14)
+			(defaults to <code>"dddd MMMM D"</code>, e.g. Tuesday October 14)
 </pre>
 
 
