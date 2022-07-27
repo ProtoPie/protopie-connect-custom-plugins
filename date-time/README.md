@@ -69,7 +69,7 @@ It is possible to override the default formatting for each of
 the above messages by specifying the desired form as the value
 supplied with the message you send.
 
-For example, if you send the message GET_TIME with the value "HH:MM"
+For example, if you send the message GET_TIME with the value "HH:mm"
 the plugin will respond with the message TIME along with the time
 formatted as 24-hour time
 	e.g., 17:56
